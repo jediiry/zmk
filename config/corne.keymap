@@ -40,7 +40,7 @@
    AS(Q) AS(W) AS(E) AS(R) AS(T)     AS(Y)   AS(U)  AS(I)     AS(O)     AS(P)
    AS(A) AS(S) AS(D) AS(F) AS(G)     AS(H)   AS(J)  AS(K)     AS(L)     AS(SQT)
    AS(Z) AS(X) AS(C) AS(V) AS(B)     AS(N)   AS(M)  &kp LCTL  &kp RALT  AS(DOT)
-        &kp LGUI &mo 1 &kp SPACE     AS(RET) &mo 2  &kp BSPC
+        &kp LGUI &to 1 &kp SPACE     AS(RET) &to 2  &kp BSPC
                         >;
                 };
 
@@ -61,17 +61,17 @@
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// | 1! |  2@ |  3# |  4$ |  5% |     |  6^ |  7& |  8* |  9(  |  0)  |
-// | -_ |  =+ |  {  |  [  |  (  |     |  )  |  ]  |  }  |  /?  |  \|  |
-// | `~ |     |     |  ,< |  :  |     |  ;  |  .> | CTRL| META |      |
-//            | GUI | ESC | SPC |     | ENT |     | TAB |
+// | !  |  @  |  #  |  $  |  %  |     |  ^  |  &  |  *  |  [   |  ]   |
+// | <  |  >  |  /  |  \  |  |  |     |  -  |  (  |  )  |  {   |  }   |
+// | .  |  ,  |  :  |  ;  |  ?  |     |  +  |  _  |  =  |  ~   |  `   |
+//            | GUI |     | SPC |     | ENT |     | TAB |
                         display-name = "Raise";
                         bindings = <
 
-   AS(N1)    AS(N2)    AS(N3)    AS(N4)    AS(N5)        AS(N6)    AS(N7)    AS(N8)    AS(N9)   AS(N0)
-   AS(MINUS) AS(EQUAL) &kp LBRC  &kp LBKT  &kp LPAR      &kp RPAR  &kp RBKT  &kp RBRC  AS(FSLH) AS(BSLH)
-   AS(GRAVE) &trans    &trans    AS(COMMA) &kp COLON     &kp SEMI  AS(DOT)   &kp LCTRL &kp RALT &trans
-                       &kp LGUI  &kp ESC   &kp SPACE     AS(RET)   &trans    &kp TAB
+   &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT     &kp CARET &kp AMPS   &kp KP_MULTIPLY &kp LBKT  &kp RBKT
+   &kp LT    &kp GT    &kp FSLH  &kp BSLH  &kp PIPE      &kp MINUS &kp LPAR   &kp RPAR        &kp LBRC  &kp RBRC
+   &kp DOT   &kp COMMA &kp COLON &kp SEMI  &kp QMARK     &kp PLUS  &kp UNDER  &kp EQUAL       &kp TILDE &kp GRAVE
+                       &kp LGUI  &trans   &kp SPACE     AS(RET)   &trans    &kp TAB
                         >;
                 };
 
