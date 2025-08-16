@@ -44,21 +44,6 @@
                         >;
                 };
 
-                lower_layer {
-// -----------------------------------------------------------------------------------------
-// | 1     |  2   |  3     |  4  |  5  |     |  6    |  7  |  8  |  9  |  0  |
-// | CTRL  | META | SHIFT  |     |     |     | LFT   | DWN |  UP | RGT | ESC |
-// | BT1   | BT2  | BT3    | BT4 | BT5 |     | BTCLR |     |     |     |     |
-//                | GUI    |     | SPC |     | ENT   |     | TAB |
-                        display-name = "Lower";
-                        bindings = <
-   &kp N1       &kp N2       &kp N3       &kp N4       &kp N5           &kp N6      &kp N7        &kp N8         &kp N9     &kp N0
-   &kp LCTL     &kp LALT     &kp LSHIFT   &trans       &trans           &kp LEFT    &kp DOWN      &kp UP         &kp RIGHT  &kp ESC
-   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4     &kp BT_CLR  &trans        &trans         &trans     &trans
-                             &kp LGUI     &trans       &kp SPACE        AS(RET)   &trans  &kp TAB
-                        >;
-                };
-
                 extra_1 {
                         status = "reserved";
                 };
