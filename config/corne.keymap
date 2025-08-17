@@ -67,9 +67,9 @@
 //            | GUI |     | SPC |     | ENT |     | TAB |
                         display-name = "Raise";
                         bindings = <
-   &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT     &kp CARET &kp AMPS   &kp KP_MULTIPLY &kp LBKT  &kp RBKT
-   &kp LT    &kp GT    &kp FSLH  &kp BSLH  &kp PIPE      &kp MINUS &kp LPAR   &kp RPAR        &kp LBRC  &kp RBRC
-   &kp APOS  &kp DOUBLE &kp COLON &kp SEMI  &kp QMARK     &kp PLUS  &kp UNDER  &kp EQUAL       &kp TILDE &kp GRAVE
+   &kp EXCL  &kp AT              &kp HASH  &kp DLLR  &kp PRCNT     &kp CARET &kp AMPS   &kp KP_MULTIPLY &kp LBKT  &kp RBKT
+   &kp LT    &kp GT              &kp FSLH  &kp BSLH  &kp PIPE      &kp MINUS &kp LPAR   &kp RPAR        &kp LBRC  &kp RBRC
+   &kp APOS  &kp QUOTE (DOUBLE)  &kp COLON &kp SEMI  &kp QMARK     &kp PLUS  &kp UNDER  &kp EQUAL       &kp TILDE &kp GRAVE
                        &kp LGUI  &trans    &kp SPACE     AS(RET)   &trans     &kp TAB
                         >;
                 };
